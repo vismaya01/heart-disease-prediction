@@ -1,0 +1,86 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Heart disease prediction</title>
+
+
+  <style>
+    /* CSS code for button */
+    body {
+      background-image: url('static/heartimage.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+  </style>
+
+</head>
+
+  <body> 
+     <p><h1 align="center" >Heart disease Patient Details</h1></p> 
+      <form action = "/heartdiseasecondition" method = "POST" > 
+	 <table align="center">
+		<tr>
+			<td>Age</td>
+			<td><input type = "text" name = "Age" /></td>
+		</tr>
+		<tr>
+			<td>Sex</td>
+			<td><input type = "text" name = "Sex" /></td>
+		</tr>
+		<tr>
+			<td>ChestPaintype</td>
+			<td><input type = "text" name = "CP" /></td>
+		</tr>
+		<tr>
+			<td>RestingBloodPressure</td>
+			<td><input type = "text" name = "RBP" /></td>
+		</tr>
+		<tr>
+			<td>SerumColesterol</td>
+			<td><input type = "text" name = "SC" /></td>
+		</tr>
+		<tr>
+			<td>FastingBloodPressure</td>
+			<td><input type ="text" name = "FBP" /></td>
+		</tr>
+		<tr>
+			<td>RestingElectrocardiographicResults</td>
+			<td><input type = "text" name = "RER" /></td>
+		</tr>
+		<tr>
+			<td>MaximumHeartRate</td>
+			<td><input type = "text" name = "DPF" /></td>
+		</tr>
+		<tr>
+			<td>exang</td>
+			<td><input type = "text" name = "exang" /></td>
+		</tr>
+		<tr>
+			<td>oldpeak</td>
+			<td><input type = "text" name = "OP" /></td>
+		</tr>
+		<tr>
+			<td>Slope</td>
+			<td><input type = "text" name = "slope" /></td>
+		</tr>
+		<tr>
+			<td>CA</td>
+			<td><input type = "text" name = "CA" /></td>
+		</tr>
+		<tr>
+			<td>Thalassemia</td>
+			<td><input type = "text" name = "thal" /></td>
+		</tr>
+         </table>
+         
+         <div align="center">
+            <button type="submit" ><strong>Predict Heart disease</strong></button></a>
+        </div>
+
+      </form> 
+        
+   </body> 
+</html> 
+
